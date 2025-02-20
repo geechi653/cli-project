@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+/* retro.css */
+
+body {
+  background-color: #000;
+  color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Override card styles to look like a terminal window */
+.card {
+  background-color: #111;
+  border: 2px solid #00ff00;
+  box-shadow: none;
+}
+
+/* Headings and text */
+h1, h5, p, .card-title, .card-text {
+  color: #00ff00;
+}
+
+/* Button styles */
+.btn {
+  background-color: #222;
+  border-color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-primary {
+  background-color: #004400;
+  border-color: #00ff00;
+}
+
+.btn-secondary {
+  background-color: #333;
+  border-color: #00ff00;
+}
